@@ -1,0 +1,23 @@
+.card {
+  padding: 6rem;
+  color: #fff;
+  font-size: 2rem;
+
+
+  &--1 {
+    background-color: goldenrod;
+  }
+  &--2 {
+    background-color: greenyellow;
+  }
+  &--3 {
+    background-color: blueviolet;
+  }
+
+  &--4 {
+    background-color: yellow;
+  }
+  &--5 {
+    background-color: crimson;
+  }
+}
