@@ -1,0 +1,16 @@
+{
+    "version": 3,
+    "mappings": "AGAA,AAAA,CAAC;AACD,CAAC,AAAA,QAAQ;AACT,CAAC,AAAA,OAAO,CAAC;EACP,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,UAAU,EAAE,OAAO;CACpB;;AAED,AAAA,IAAI,CAAC;EACH,SAAS,EAAE,KAAK;EAChB,UAAU,EAAE,UAAU;CACvB;;AAED,AAAA,IAAI,CAAC;EACH,WAAW,EDJE,QAAQ,EAAE,UAAU;ECKjC,WAAW,EAAE,GAAG;CACjB",
+    "sources": [
+        "main.scss",
+        "abstract/_mixins.scss",
+        "abstract/_variables.scss",
+        "base/_base.scss",
+        "base/_typography.scss",
+        "components/_card.scss",
+        "components/_testimonial.scss",
+        "pages/_home.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}
