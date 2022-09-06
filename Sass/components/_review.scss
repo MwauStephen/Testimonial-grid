@@ -1,0 +1,44 @@
+.review {
+  position: relative;
+  &::before {
+    content: "\201c";
+    font-size: 40rem;
+    color: $color-grey-light;
+    line-height: 1;
+    position: absolute;
+    top: -4rem;
+    right: 35rem;
+    z-index: 1;
+
+    opacity: 0.5;
+  }
+  &__client {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 3rem;
+  }
+  &__photo {
+    height: 6rem;
+    width: 6rem;
+    border-radius: 50%;
+  }
+  &__client-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  &__client-name {
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: $color-grey-light;
+  }
+  &__client-occupation {
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: $color-grey-dark-light;
+    margin-left: -2rem;
+  }
+}
