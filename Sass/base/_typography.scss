@@ -1,8 +1,12 @@
 .heading-1 {
-  font-size: 1.6rem;
+  font-size: 3.4rem;
   font-weight: 700;
   color: #fff;
   margin-bottom: 3.8rem;
   line-height: 1.6;
-  grid-column: 1 / span 3;
+}
+.text {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  color: $color-grey-dark-light;
 }
