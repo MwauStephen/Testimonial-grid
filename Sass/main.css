@@ -28,67 +28,101 @@ html {
 body {
   font-family: "Roboto", sans-serif;
   line-height: 1.6;
+  background-color: #eee;
 }
 
 .heading-1 {
-  font-size: 1.6rem;
+  font-size: 3.4rem;
   font-weight: 700;
   color: #fff;
   margin-bottom: 3.8rem;
   line-height: 1.6;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 3;
-  grid-column: 1 / span 3;
+}
+
+.text {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  color: #d7dae4;
 }
 
 .card {
-  padding: 6rem;
-  color: #fff;
-  font-size: 2rem;
-  width: 90%;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-rows: (minmax(150px, min-content))[2];
-      grid-template-rows: repeat(2, minmax(150px, -webkit-min-content));
-      grid-template-rows: repeat(2, minmax(150px, min-content));
-  -ms-grid-columns: minmax(200px, 300px) (1fr)[3];
-      grid-template-columns: minmax(200px, 300px) repeat(3, 1fr);
+  padding: 4rem;
+  border-radius: 0.9rem;
+  -webkit-box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.5);
+          box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.5);
+}
+
+.card__img-box {
+  margin-bottom: 3rem;
 }
 
 .card--1 {
-  background-color: goldenrod;
+  background-color: #784ac3;
 }
 
-.card--2 {
-  background-color: greenyellow;
+.review {
+  position: relative;
 }
 
-.card--3 {
-  background-color: blueviolet;
+.review::before {
+  content: "\201c";
+  font-size: 40rem;
+  color: #eff3f8;
+  line-height: 1;
+  position: absolute;
+  top: -4rem;
+  right: 35rem;
+  z-index: 1;
+  opacity: 0.5;
 }
 
-.card--4 {
-  background-color: yellow;
+.review__client {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 2rem;
+  margin-bottom: 3rem;
 }
 
-.card--5 {
-  background-color: crimson;
+.review__photo {
+  height: 6rem;
+  width: 6rem;
+  border-radius: 50%;
 }
 
-.card--6 {
-  background-color: indigo;
+.review__client-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-.card--7 {
-  background-color: orange;
+.review__client-name {
+  font-size: 1.8rem;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: #eff3f8;
 }
 
-.card--8 {
-  background-color: burlywood;
+.review__client-occupation {
+  font-size: 1.2rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  color: #d7dae4;
+  margin-left: -2rem;
 }
 
 .container {
-  width: 1000px;
+  max-width: 120rem;
   margin: 8rem auto;
 }
 /*# sourceMappingURL=main.css.map */
