@@ -9,4 +9,17 @@
   &--1 {
     background-color: $color-secondary;
   }
+  &--2 {
+    background-color: $color-dark-light;
+  }
+  &--3 {
+    // background-color: $color-grey-light;
+    background-color: $color-grey-dark-light;
+  }
+  &--4 {
+    background-color: $color-grey-dark;
+  }
+  &--5 {
+    background-color: $color-dark;
+  }
 }
