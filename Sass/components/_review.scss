@@ -1,17 +1,18 @@
 .review {
   position: relative;
-  &::before {
-    content: "\201c";
-    font-size: 40rem;
-    color: $color-grey-light;
-    line-height: 1;
-    position: absolute;
-    top: -4rem;
-    right: 35rem;
-    z-index: 1;
 
-    opacity: 0.5;
-  }
+  // &::before {
+  //   content: "\201c";
+  //   font-size: 40rem;
+  //   color: $color-grey-light;
+  //   line-height: 1;
+  //   position: absolute;
+  //   top: -4rem;
+  //   right: 35rem;
+  //   z-index: 1;
+
+  //   opacity: 0.5;
+  // }
   &__client {
     display: flex;
     align-items: center;
