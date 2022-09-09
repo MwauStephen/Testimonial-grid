@@ -4,9 +4,35 @@
   color: #fff;
   margin-bottom: 3.8rem;
   line-height: 1.6;
+  position: relative;
+
+  &::before {
+    content: "\201c";
+    font-size: 40rem;
+    color: $color-grey-light;
+    line-height: 1;
+    position: absolute;
+    top: -4rem;
+    right: 35rem;
+    z-index: 1;
+
+    opacity: 0.5;
+  }
+}
+.heading-2 {
+  font-size: 3.5rem;
+  margin-bottom: 3.8rem;
+  line-height: 1.6;
+  &--white {
+    color: #fff;
+  }
+  &--black {
+    color: $color-dark;
+  }
 }
 .text {
   font-size: 1.6rem;
   line-height: 1.6;
-  color: $color-grey-dark-light;
+  // color: $color-grey-dark-light;
+  color: $color-grey-white;
 }
