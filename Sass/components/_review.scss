@@ -20,8 +20,10 @@
     margin-bottom: 3rem;
   }
   &__photo {
-    height: 6rem;
-    width: 6rem;
+    // height: 6rem;
+    // width: 6rem;
+    height: 3rem;
+    width: 3rem;
     border-radius: 50%;
   }
   &__client-box {
@@ -30,8 +32,9 @@
     align-items: center;
   }
   &__client-name {
-    font-size: 1.8rem;
-    font-weight: 600;
+    // font-size: 1.8rem;
+    font-size: 1.2rem;
+    font-weight: 700;
     text-transform: capitalize;
     color: $color-grey-light;
   }
