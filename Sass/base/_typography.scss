@@ -1,5 +1,6 @@
 .heading-1 {
-  font-size: 3.4rem;
+  // font-size: 3.4rem;
+  font-size: 1.6rem;
   font-weight: 700;
   color: #fff;
   margin-bottom: 3.8rem;
@@ -8,7 +9,7 @@
 
   &::before {
     content: "\201c";
-    font-size: 40rem;
+    font-size: 20rem;
     color: $color-grey-light;
     line-height: 1;
     position: absolute;
@@ -20,8 +21,10 @@
   }
 }
 .heading-2 {
-  font-size: 3.5rem;
-  margin-bottom: 3.8rem;
+  // font-size: 3.5rem;
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+  // margin-bottom: 3.8rem;
   line-height: 1.6;
   &--white {
     color: #fff;
@@ -31,7 +34,8 @@
   }
 }
 .text {
-  font-size: 1.6rem;
+  // font-size: 1.6rem;
+  font-size: 1.2rem;
   line-height: 1.6;
   // color: $color-grey-dark-light;
   color: $color-grey-white;
