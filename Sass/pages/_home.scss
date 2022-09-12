@@ -10,4 +10,10 @@
 .container {
   max-width: 120rem;
   margin: 8rem auto;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+
+  grid-gap: 1.5rem;
+  align-items: baseline;
 }
