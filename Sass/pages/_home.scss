@@ -16,4 +16,14 @@
 
   grid-gap: 1.5rem;
   align-items: baseline;
+
+  @include respond(tab-land) {
+    max-width: 100rem;
+    margin: 6rem;
+  }
+  @include respond(phone) {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+  }
 }
